@@ -1,9 +1,9 @@
-variable "access_key" {
+variable "AccessKey" {
   type    = string
   description = "access key for aws"
 }
 
-variable "secret_key" {
+variable "SecretKey" {
   type    = string
   description = "secret-key of aws"
 }

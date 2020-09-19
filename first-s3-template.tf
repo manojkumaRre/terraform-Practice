@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "ap-southeast-2"
-  Access_key = var.access_key
-  Secret_key = var.secret_key
+  AccessKey = var.AccessKey
+  SecretKey = var.SecretKey
 }
 resource "aws_s3_bucket" "b" {
   bucket = var.bucketname
