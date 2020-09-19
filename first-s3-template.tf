@@ -5,7 +5,7 @@ provider "aws" {
   secret_key = var.SecretKey
 }
 resource "aws_s3_bucket" "b" {
-  bucket = "test1234"
+  bucket = "test-manojkumaRe"
 
   acl    = "private"
 
